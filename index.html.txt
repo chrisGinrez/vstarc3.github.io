@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VSTARC3</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 44px;
+      margin: 10px 0;
+    }
+
+    p.subtitle {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      margin: 20px 0;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #60a5fa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="logo.png" class="logo" alt="VSTARC3 Logo"/>
+    <h1>VSTARC3</h1>
+    <p class="subtitle">AI-Powered Marketing & Business Development Systems</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="card">
+      <h2>About Us</h2>
+      <p>
+        VSTARC3 is focused on building automated business growth systems using AI, 
+        outreach pipelines, and smart marketing workflows. Our goal is to help 
+        businesses scale faster with less manual effort.
+      </p>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="card">
+      <h2>What We Do</h2>
+      <ul>
+        <li>AI Email Outreach Automation</li>
+        <li>Lead Generation Systems</li>
+        <li>Business Process Automation (n8n / AI agents)</li>
+        <li>Marketing Funnel Development</li>
+      </ul>
+    </div>
+
+    <!-- MISSION -->
+    <div class="card">
+      <h2>Our Mission</h2>
+      <p>
+        To automate business growth using intelligent systems that reduce workload 
+        and increase efficiency for modern companies.
+      </p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="card">
+      <h2>Contact</h2>
+      <p>We are currently operating through GitHub Pages deployment.</p>
+      <a class="btn" href="mailto:contact@vstarc3.com">Contact Us</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 VSTARC3. All rights reserved.
+  </footer>
+
+</body>
+</html>
